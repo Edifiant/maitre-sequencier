@@ -80,7 +80,7 @@ export default function App() {
         <div style={{ backgroundColor: 'white', padding: '1.5rem', borderRadius: '1rem', boxShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
           <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold' }}><BookOpenText size={20} /> {data.title}</h2>
           <p><strong>🎯 Problématique :</strong> {data.problem}</p>
-          <h3><ScrollText size={16} /> Corpus :</h3>
+          <h3><ScrollText size={16} /> corpus :</h3>
           <ul>{data.corpus.map((item, i) => <li key={i}>{item}</li>)}</ul>
           <h3><ScrollText size={16} /> Déroulement :</h3>
           <ol>{data.plan.map((item, i) => <li key={i}>{item}</li>)}</ol>
